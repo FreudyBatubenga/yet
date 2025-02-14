@@ -12,10 +12,10 @@ export function HeaderTwo(){
                     <li>Quem somos</li>
                     <li>centro de identificação</li>
                     </div>
-                <div className="flex gap-12">
-                    <Bell />
+                <div className="flex gap-12 items-center">
+                    <Bell fill="#fff"/>
                     <span className="bg-white w-12 h-12 rounded-full items-center justify-center flex">
-                    < Image src={Usser} alt="logo" width={48} height={48} priority/>
+                    < Image src={Usser} alt="logo" width={48} height={48} priority className="cursor-pointer"/>
                     </span>
                 </div>
                 </nav>
